@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94198E471BB9B19B008DD930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94198E461BB9B19B008DD930 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
-		D963BA5CF20BD08A9E9FD5EF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E654C554C1D6FF3ABD034330 /* libPods.a */; };
+		2465E5328D6B784EDE2F9E0C /* Pods_ios_mysql_client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3717A1B454AF9E2177EC8D8E /* Pods_ios_mysql_client.framework */; };
+		94198E471BB9B19B008DD930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94198E461BB9B19B008DD930 /* LaunchScreen.storyboard */; };
 		E4F3D3AD186A00D4004D51C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F3D3AC186A00D4004D51C6 /* Foundation.framework */; };
 		E4F3D3AF186A00D4004D51C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F3D3AE186A00D4004D51C6 /* CoreGraphics.framework */; };
 		E4F3D3B1186A00D4004D51C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F3D3B0186A00D4004D51C6 /* UIKit.framework */; };
@@ -28,8 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3717A1B454AF9E2177EC8D8E /* Pods_ios_mysql_client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_mysql_client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BF71DD7923614A42E8D223 /* Pods-ios_mysql_client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_mysql_client.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios_mysql_client/Pods-ios_mysql_client.debug.xcconfig"; sourceTree = "<group>"; };
 		94198E461BB9B19B008DD930 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BF632311234026C7F7B8BAC2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E4F3D3A9186A00D4004D51C6 /* ios_mysql_client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_mysql_client.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F3D3AC186A00D4004D51C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E4F3D3AE186A00D4004D51C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,7 +46,6 @@
 		E4F3D3C4186A00D4004D51C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E4F3D3C5186A00D4004D51C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E4F3D3C7186A00D4004D51C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E4F3D3CE186A00D4004D51C6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E4F3D433186A0196004D51C6 /* MySqlController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySqlController.h; sourceTree = "<group>"; };
 		E4F3D434186A0196004D51C6 /* MySqlController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySqlController.m; sourceTree = "<group>"; };
 		E4F3D435186A0196004D51C6 /* MySqlDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySqlDB.h; sourceTree = "<group>"; };
@@ -58,8 +58,7 @@
 		E4F3D440186A0293004D51C6 /* ExampleMySqlController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleMySqlController.m; path = sources/ExampleMySqlController.m; sourceTree = "<group>"; };
 		E4F3D442186A030A004D51C6 /* ExampleTable1MySqlTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleTable1MySqlTable.h; path = sources/ExampleTable1MySqlTable.h; sourceTree = "<group>"; };
 		E4F3D443186A030A004D51C6 /* ExampleTable1MySqlTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleTable1MySqlTable.m; path = sources/ExampleTable1MySqlTable.m; sourceTree = "<group>"; };
-		E654C554C1D6FF3ABD034330 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8A2A47D64687408043F0651 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E68D522807F968E613820638 /* Pods-ios_mysql_client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_mysql_client.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios_mysql_client/Pods-ios_mysql_client.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,18 +69,18 @@
 				E4F3D3AF186A00D4004D51C6 /* CoreGraphics.framework in Frameworks */,
 				E4F3D3B1186A00D4004D51C6 /* UIKit.framework in Frameworks */,
 				E4F3D3AD186A00D4004D51C6 /* Foundation.framework in Frameworks */,
-				D963BA5CF20BD08A9E9FD5EF /* libPods.a in Frameworks */,
+				2465E5328D6B784EDE2F9E0C /* Pods_ios_mysql_client.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8B223517D029342D1EB53CD7 /* Pods */ = {
+		6F044AF3AAE7225304F75287 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F8A2A47D64687408043F0651 /* Pods.debug.xcconfig */,
-				BF632311234026C7F7B8BAC2 /* Pods.release.xcconfig */,
+				45BF71DD7923614A42E8D223 /* Pods-ios_mysql_client.debug.xcconfig */,
+				E68D522807F968E613820638 /* Pods-ios_mysql_client.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -92,7 +91,7 @@
 				E4F3D3B2186A00D4004D51C6 /* ios_mysql_client */,
 				E4F3D3AB186A00D4004D51C6 /* Frameworks */,
 				E4F3D3AA186A00D4004D51C6 /* Products */,
-				8B223517D029342D1EB53CD7 /* Pods */,
+				6F044AF3AAE7225304F75287 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,8 +109,7 @@
 				E4F3D3AC186A00D4004D51C6 /* Foundation.framework */,
 				E4F3D3AE186A00D4004D51C6 /* CoreGraphics.framework */,
 				E4F3D3B0186A00D4004D51C6 /* UIKit.framework */,
-				E4F3D3CE186A00D4004D51C6 /* XCTest.framework */,
-				E654C554C1D6FF3ABD034330 /* libPods.a */,
+				3717A1B454AF9E2177EC8D8E /* Pods_ios_mysql_client.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,11 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4F3D3DE186A00D4004D51C6 /* Build configuration list for PBXNativeTarget "ios_mysql_client" */;
 			buildPhases = (
-				6FDEAD0E890BDBF89EC5CB90 /* Check Pods Manifest.lock */,
+				D232E59AE1D7D950AFBFF8B4 /* [CP] Check Pods Manifest.lock */,
 				E4F3D3A5186A00D4004D51C6 /* Sources */,
 				E4F3D3A6186A00D4004D51C6 /* Frameworks */,
 				E4F3D3A7186A00D4004D51C6 /* Resources */,
-				A8915A968EE49D463E82AD2B /* Copy Pods Resources */,
+				C745DCD3A28FC56A93B98EE0 /* [CP] Embed Pods Frameworks */,
+				F82BA0FF8B53E4D03D239F06 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,7 +191,7 @@
 		E4F3D3A1186A00D4004D51C6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Maxim Bilan";
 			};
 			buildConfigurationList = E4F3D3A4186A00D4004D51C6 /* Build configuration list for PBXProject "ios_mysql_client" */;
@@ -229,34 +228,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6FDEAD0E890BDBF89EC5CB90 /* Check Pods Manifest.lock */ = {
+		C745DCD3A28FC56A93B98EE0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios_mysql_client/Pods-ios_mysql_client-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A8915A968EE49D463E82AD2B /* Copy Pods Resources */ = {
+		D232E59AE1D7D950AFBFF8B4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F82BA0FF8B53E4D03D239F06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios_mysql_client/Pods-ios_mysql_client-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -321,14 +335,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -341,12 +360,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/ios_mysql_client/libs/mysql-connector/lib\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/ios_mysql_client/libs/mysql-connector/include\"";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -363,34 +382,40 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/ios_mysql_client/libs/mysql-connector/lib\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/ios_mysql_client/libs/mysql-connector/include\"";
+				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		E4F3D3DF186A00D4004D51C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8A2A47D64687408043F0651 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 45BF71DD7923614A42E8D223 /* Pods-ios_mysql_client.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios_mysql_client/ios_mysql_client-Prefix.pch";
 				INFOPLIST_FILE = "ios_mysql_client/ios_mysql_client-Info.plist";
@@ -403,10 +428,11 @@
 		};
 		E4F3D3E0186A00D4004D51C6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF632311234026C7F7B8BAC2 /* Pods.release.xcconfig */;
+			baseConfigurationReference = E68D522807F968E613820638 /* Pods-ios_mysql_client.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ios_mysql_client/ios_mysql_client-Prefix.pch";
 				INFOPLIST_FILE = "ios_mysql_client/ios_mysql_client-Info.plist";
